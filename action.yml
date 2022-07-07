@@ -18,6 +18,10 @@ inputs:
     description: 'Branch which will be deployed'
     required: false
     default: 'master'
+  directory:
+    description: 'Path that your app main path'
+    required: false
+    default: './'
 runs:
   using: 'docker'
   image: 'Dockerfile'
