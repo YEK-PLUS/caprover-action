@@ -20,6 +20,10 @@ Action to deploy on Caprover server.
 
 Branch which will be deployed. *Default: master*
 
+### `directory`
+
+Path that your app main path. *Default: ./*
+
 
 ## Example usage
 ```
